@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 st.set_page_config(layout="wide", page_title="Mental Health Analytics", page_icon="🧠")
 
 # Custom CSS Theme
-st.markdown(\"\"\"
+st.markdown(
 <style>
 .block-container {
  padding: 1rem 2rem;
@@ -14,7 +14,7 @@ st.markdown(\"\"\"
 .st-bx { background-color: transparent; }
 .st-cs { background-color: transparent; }
 </style>
-\"\"\", unsafe_allow_html=True)
+, unsafe_allow_html=True)
 
 # Sidebar Navigation
 st.sidebar.title("🔍 Navigation")
